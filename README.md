@@ -1,7 +1,7 @@
 Bigcommerce-api
 ===============
 
-bigcommerce api okey
+bigcommerce api okey.
 
 index.php
 
