@@ -4,7 +4,7 @@ Bigcommerce-api
 bigcommerce api okey
 
 ```
-<php
+<?php
 
 include 'Api.php';
 
