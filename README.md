@@ -3,6 +3,7 @@ Bigcommerce-api
 
 bigcommerce api okey
 
+```
 <php
 
 include 'Api.php';
@@ -20,3 +21,4 @@ Client::configure(array(
     		));
             
 Client::setCipher('RC4-SHA');//rsa_rc4_128_sha, RC4-SHA, RSA_RC4_128_SHA
+```
