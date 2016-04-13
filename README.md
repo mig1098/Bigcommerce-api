@@ -1,6 +1,3 @@
-Bigcommerce-api
-===============
-
 bigcommerce api okey
 --------------------
 
