@@ -1,24 +1,26 @@
-bigcommerce api okey
---------------------
+bigcommerce api
+---------------
 
-index.php
+Requirements
+------------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
-```
-<?php
+Private Auth
+------------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
-include 'Api.php';
+Public Auth
+-----------
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
 
-define('BIGCOMM_API_TOKEN','456456456456456a35424789');//your token for private app
-define('BIGCOMM_PATH','https://you-store.mybigcommerce.com');//your store
-define('BIGCOMM_USERNAME','apolo1');
+Create data
+-----------
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
 
-use Bigcommerce\Api\Client;
+Update data
+-----------
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
 
-Client::configure(array(
-    			'store_url' => BIGCOMM_PATH,
-    			'username' => BIGCOMM_USERNAME,
-    			'api_key' => BIGCOMM_API_TOKEN,
-    		));
-            
-Client::setCipher('RC4-SHA');//rsa_rc4_128_sha, RC4-SHA, RSA_RC4_128_SHA
-```
+Delete data
+-----------
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
