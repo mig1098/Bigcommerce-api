@@ -8,7 +8,8 @@ class Bigcommerce {
         $this->bigcommerce = new bigcomModel(array(
             'type'     => 'private',
             'username' => 'your-user',
-            'api_path' => 'https://your-store.mybigcommerce.com/api/v2/','api_token'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+            'api_path' => 'https://your-store.mybigcommerce.com/api/v2/',
+			'api_token'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         ));
         //
         
