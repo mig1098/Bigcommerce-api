@@ -6,8 +6,8 @@
  * Only use this file if you don't want autoloading or package management.
  * The new api no need set CIPHER
  */
-require_once BASE_APPPATH. 'Library/Bigcommerce/Connection.php';
-require_once BASE_APPPATH. 'Library/Bigcommerce/Error.php';
-//require_once BASE_APPPATH. 'Library/Bigcommerce/ClientError.php';
-require_once BASE_APPPATH. 'Library/Bigcommerce/ServerError.php';
-require_once BASE_APPPATH. 'Library/Bigcommerce/NetworkError.php';
+require_once  'Library/Bigcommerce/Connection.php';
+require_once  'Library/Bigcommerce/Error.php';
+require_once  'Library/Bigcommerce/ClientError.php';
+require_once  'Library/Bigcommerce/ServerError.php';
+require_once  'Library/Bigcommerce/NetworkError.php';
