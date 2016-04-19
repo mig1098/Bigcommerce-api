@@ -9,7 +9,7 @@ class Bigcommerce {
             'type'     => 'private',
             'username' => 'your-user',
             'api_path' => 'https://your-store.mybigcommerce.com/api/v2/',
-			'api_token'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+	    'api_token'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         ));
     }
     
