@@ -11,8 +11,6 @@ class Bigcommerce {
             'api_path' => 'https://your-store.mybigcommerce.com/api/v2/',
 			'api_token'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         ));
-        //
-        
     }
     
     public function index($action){
