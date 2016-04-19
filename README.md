@@ -14,7 +14,7 @@ Private Auth
 
 ![sample](http://i.imgur.com/NJHVJIg.jpg)
 
-Set in Controller construct Bigcommerce.php:
+***Set in Controller construct Bigcommerce.php:***
 ```
 $this->bigcommerce = new bigcomModel(array(
     'type'     => 'private',
