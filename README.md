@@ -7,7 +7,7 @@ PHP > 5.3
 
 Private Auth
 ------------
-Get Legacy api accounts:
+***Get Legacy api accounts:***
 -  Username
 -  API Path
 -  API Token
