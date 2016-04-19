@@ -12,6 +12,8 @@ Get Legacy api accounts:
 -  API Path
 -  API Token
 
+![sample](http://i.imgur.com/NJHVJIg.jpg)
+
 Set in Controller construct Bigcommerce.php:
 ```
 $this->bigcommerce = new bigcomModel(array(
