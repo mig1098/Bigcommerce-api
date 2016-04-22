@@ -11,16 +11,7 @@ class Bigcommerce {
             'api_path' => 'https://your-store.mybigcommerce.com/api/v2/',
 	    'api_token'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         ));
-    }
-    
-    public function index($action){
-        switch($action){
-            case 'store-info':
-                print_r($this->bigcommerce->getStoreInformation());
-            break;
-            default:
-                echo 'bigcommerce api';
-            break;
-        }
+        //
+        print_r($this->bigcommerce->getStoreInformation());
     }
 }
