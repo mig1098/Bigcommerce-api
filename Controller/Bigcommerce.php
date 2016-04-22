@@ -14,7 +14,7 @@ class Bigcommerce {
         //
     }
     
-    public function data(){
+    public function execute(){
     	print_r($this->bigcommerce->getStoreInformation());
     }
 }
