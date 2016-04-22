@@ -84,7 +84,7 @@ $bigcommerce->execute(function(\Controller\Bigcommerce $controller){
 });
 ```
 
-***UPDATE***
+***DELETE***
 
 ```
 $bigcommerce->execute(function(\Controller\Bigcommerce $controller){
