@@ -83,3 +83,12 @@ $bigcommerce->execute(function(\Controller\Bigcommerce $controller){
     print_r($controller->bigcommerce->updateProduct($product));
 });
 ```
+
+***UPDATE***
+
+```
+$bigcommerce->execute(function(\Controller\Bigcommerce $controller){
+    $product_id = 82;
+    print_r($controller->bigcommerce->deleteProduct($product_id));
+});
+```
