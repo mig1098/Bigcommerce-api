@@ -12,6 +12,9 @@ class Bigcommerce {
 	    'api_token'=>'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         ));
         //
-        print_r($this->bigcommerce->getStoreInformation());
+    }
+    
+    public function data(){
+    	print_r($this->bigcommerce->getStoreInformation());
     }
 }
