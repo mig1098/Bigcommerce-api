@@ -6,3 +6,4 @@ include './Controller/Bigcommerce.php';
 begin api
 **/
 $bigcommerce = new \Controller\Bigcommerce();
+$bigcommerce->execute();
