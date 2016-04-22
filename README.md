@@ -32,14 +32,12 @@ $this->bigcommerce = new bigcomModel(array(
 ));
 ```
 
-Create data
+Porducts
 -----------
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+***GET***
 
-Update data
------------
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+***CREATE***
 
-Delete data
------------
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+***UPDATE***
+
+
