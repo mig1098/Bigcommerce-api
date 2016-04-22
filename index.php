@@ -6,6 +6,6 @@ include './Controller/Bigcommerce.php';
 begin api
 **/
 $bigcommerce = new \Controller\Bigcommerce();
-$bigcommerce->execute(function($controller){
+$bigcommerce->execute(function(\Controller\Bigcommerce $controller){
     print_r($controller->bigcommerce->getStoreInformation());
 });
