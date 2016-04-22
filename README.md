@@ -14,7 +14,7 @@ Private Auth
 
 ![sample](http://i.imgur.com/NJHVJIg.jpg)
 
-***Set in Controller Bigcommerce.php construct:***
+***Set in Controller Bigcommerce.php - construct:***
 ```
 $this->bigcommerce = new bigcomModel(array(
     'type'     => 'private',
@@ -26,7 +26,14 @@ $this->bigcommerce = new bigcomModel(array(
 
 Public OAuth
 -----------
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+***Set in Controller Bigcommerce.php - construct:***
+```
+$this->bigcommerce = new bigcomModel(array(
+    'type'=>'public',
+    'context'=>'stores/your-context',
+    'access_token'=>'your-access-token'
+));
+```
 
 Create data
 -----------
