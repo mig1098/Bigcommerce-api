@@ -35,9 +35,43 @@ $this->bigcommerce = new bigcomModel(array(
 Porducts
 -----------
 ***GET***
+index.php
+```
+$bigcommerce->execute(function(\Controller\Bigcommerce $controller){
+    print_r($controller->bigcommerce->getProducts());
+});
+```
 
 ***CREATE***
+index.php
+```
+$product = array('product'=>array(
+    'name'        => 'Productdemo',
+    'description' => 'from the php api',
+    'type'        => 'physical',
+    'weight'      => '1',
+    'price'       => '20.00',
+    'is_visible'  => true,
+    'availability'=> 'available',
+    'categories'  => array(15) //category id must be exist
+));
+$bigcommerce->execute(function(\Controller\Bigcommerce $controller){
+    print_r($controller->bigcommerce->createProduct($product));
+});
+```
 
 ***UPDATE***
-
-
+index.php
+```
+$product = array('product'=>array(
+    'id'     => 82, //from product created
+    'price'  => 18,
+    //'type'   => 'physical',
+    //'is_visible'  => true,
+    //'availability'=> 'available'
+    'categories' => array(15)
+));
+$bigcommerce->execute(function(\Controller\Bigcommerce $controller){
+    print_r($controller->bigcommerce->updateProduct($product));
+});
+```
