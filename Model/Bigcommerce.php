@@ -30,8 +30,8 @@ class Bigcommerce{
     //------------------------------------------------------------------
     // public keys
     //------------------------------------------------------------------
-    public $CLIENT_ID     = ''; 
-    public $CLIENT_SECRET = ''; 
+    public $CLIENT_ID     = 'your-client-id'; 
+    public $CLIENT_SECRET = 'your-client-secret'; 
     public $CLIENT_REDIRECR_URI = 'https://domain.com/folder/customer/install'; 
     //------------------------------------------------------------------
     // private keys
