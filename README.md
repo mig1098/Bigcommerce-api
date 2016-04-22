@@ -38,7 +38,7 @@ $this->bigcommerce = new bigcomModel(array(
 
 OAuth get access token
 ----------------------
-...Pending...
+Pending...
 
 Porducts
 -----------
