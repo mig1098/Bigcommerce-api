@@ -2,6 +2,10 @@ Requirements
 ------------
 PHP > 5.3
 
+Instructions
+------------
+All process is executed in index.php
+
 Private Auth
 ------------
 ***Get Legacy api accounts:***
@@ -35,7 +39,7 @@ $this->bigcommerce = new bigcomModel(array(
 Porducts
 -----------
 ***GET***
-index.php
+
 ```
 $bigcommerce->execute(function(\Controller\Bigcommerce $controller){
     print_r($controller->bigcommerce->getProducts());
@@ -43,7 +47,7 @@ $bigcommerce->execute(function(\Controller\Bigcommerce $controller){
 ```
 
 ***CREATE***
-index.php
+
 ```
 $product = array('product'=>array(
     'name'        => 'Productdemo',
@@ -61,7 +65,7 @@ $bigcommerce->execute(function(\Controller\Bigcommerce $controller){
 ```
 
 ***UPDATE***
-index.php
+
 ```
 $product = array('product'=>array(
     'id'     => 82, //from product created
