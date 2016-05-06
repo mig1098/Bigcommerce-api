@@ -40,7 +40,7 @@ OAuth get access token
 ----------------------
 Pending...
 
-Porducts
+Products
 -----------
 ***GET***
 
